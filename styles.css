@@ -4,8 +4,13 @@
 
 .flex-container {
   display: flex;
+  flex: 1;
+  height: 450px;
+  gap: 15px;
 }
 
 .flex-item {
+  border: 1px solid #000000;
   flex: 1;
+  height: 100%;
 }

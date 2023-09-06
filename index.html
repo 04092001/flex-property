@@ -3,13 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FLex Practice</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Flex Practice</title>
   </head>
   <body>
-    <div class="flex-container">
-      <div class="flex-item"></div>
-      <div class="flex-item"></div>
-      <div class="flex-item"></div>
+    <div class="flex-container" style="padding: 15px">
+      <div class="flex-container"><div class="flex-item"></div></div>
+      <div class="flex-container" style="flex-direction: column">
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+      </div>
     </div>
   </body>
 </html>
