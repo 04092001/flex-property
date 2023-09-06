@@ -4,9 +4,9 @@
 
 .flex-container {
   display: flex;
+  gap: 10px;
   flex: 1;
-  height: 450px;
-  gap: 15px;
+  margin: 10px 0;
 }
 
 .flex-item {
